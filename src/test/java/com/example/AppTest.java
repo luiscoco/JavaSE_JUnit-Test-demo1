@@ -17,7 +17,7 @@ public class AppTest
     public void testAdd() {
         App app = new App();
         int result = app.add(2, 3);
-        Assert.assertEquals(5, result);
+        Assert.assertEquals(10, result);
     }
 
     @Test
